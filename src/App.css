@@ -1,0 +1,30 @@
+.wrap {
+  background-color: rgba(238, 210, 238, 1.0);
+  height: 100vh;
+}
+.nothing {
+  height: 80px;
+}
+.container{
+  min-height: 700px;
+  width: 600px;
+  border: 1px solid rgba(79, 79, 79, 1.0);
+  color: rgba(79, 79, 79, 1.0);
+  margin: auto;
+  border-radius: 30px;
+  font-size: 17px;
+}
+.header {
+  font-size: 30px;
+  margin-top: 160px;
+  font-weight: bold;
+  text-align: center;
+}
+.textarea {
+  margin-top: 20px;
+  text-align: center;
+}
+.list {
+  margin-top: 20px;
+  text-align: center;
+}

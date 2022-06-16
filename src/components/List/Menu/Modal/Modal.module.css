@@ -1,0 +1,47 @@
+.modal {
+    height: 100vh;
+    width: 200vh;
+    background-color: rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+    margin-left: 50px;
+    transform: scale(0);
+    opacity: 0;
+    pointer-events: none;
+}
+.modal_active {
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: all;
+}
+.modal_content {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    height: 100px;
+    width: 380px;
+    text-align: center;
+}
+.close_button{
+    color: rgba(79, 79, 79, 1.0);
+    position: fixed;
+    top: 0;
+    margin-left: 180px;
+    max-width: 25px;
+    max-height: 25px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 4px;
+ }
+
+ .main_buttons {
+    margin: 10px;
+    margin-top: 20px;
+ }
+ .taskText {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-top: 5px;
+ }

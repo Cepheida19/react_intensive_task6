@@ -1,0 +1,63 @@
+
+.listItem {
+    border-bottom: 1px solid #fff;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.listItem img {
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.main_text{
+    text-align: center;
+    max-width: 300px;
+}
+.listItem textarea {
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 250px;
+    border: 1px solid rgba(79, 79, 79, 0.9);
+    color: rgba(79, 79, 79, 1.0);
+}
+.wrap .filters {
+    width: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 17px;
+}
+.wrap .filters button {
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(79, 79, 79, 0.5);
+    color: rgba(79, 79, 79, 1.0);
+    font-size: 14px;
+}
+.wrap .filters button:hover {
+    background-color: rgba(238, 210, 238, 1.0);
+    border: 2px solid #fff;
+}
+.active_filter {
+    font-weight: bold;
+}
+.usual_filter {
+    font-size: 13px;
+}
+.taskFromBase button {
+    color: rgba(79, 79, 79, 1.0);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(79, 79, 79, 0.7);
+}
+.taskFromBase button:hover {
+    background-color: rgba(238, 210, 238, 1.0);
+    border: 2px solid #fff;
+}

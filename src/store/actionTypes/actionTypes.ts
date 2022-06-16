@@ -1,0 +1,10 @@
+export const ADD_TASK: string = "ADD_TASK";
+export const DELETE_POSITION: string = "DELETE_POSITION";
+export const ADD_TO_SPECIAL: string = "ADD_TO_SPECIAL";
+export const DELETE_FROM_SPECIAL: string = "DELETE_FROM_SPECIAL";
+export const ADD_TO_DONE: string = "ADD_TO_DONE";
+export const DELETE_FROM_DONE: string = "DELETE_FROM_DONE";
+export const ADD_TO_EDIT: string = "ADD_TO_EDIT";
+export const DELETE_FROM_EDIT: string = "DELETE_FROM_EDIT";
+export const ADD_EDIT_TEXT: string = "ADD_EDIT_TEXT";
+export const TASK_FROM_SERVER: string = "TASK_FROM_SERVER";
